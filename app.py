@@ -3,6 +3,7 @@ import streamlit as st
 
 html_string="""
 
+<!DOCTYPE html>
 <html>
 <head>
   <title>Blog Website</title>
@@ -27,7 +28,7 @@ html_string="""
       text-align: center;
     }
     nav {
-      background-color: #f4f4f4;
+      background-color: #333;
       padding: 10px;
       text-align: center;
     }
@@ -41,7 +42,7 @@ html_string="""
       margin-right: 10px;
     }
     .section {
-      background-color: #fff;
+      background-color: #333;
       border-radius: 10px;
       margin-bottom: 20px;
       padding: 20px;
@@ -55,35 +56,35 @@ html_string="""
       margin-bottom: 10px;
     }
     .news-feed {
-      background-color: #f9f9f9;
+      background-color: #333;
       padding: 10px;
       margin-bottom: 20px;
     }
     .events {
-      background-color: #f9f9f9;
+      background-color: #333;
       padding: 10px;
       margin-bottom: 20px;
     }
     .jobs {
-      background-color: #f9f9f9;
+      background-color: #333;
       padding: 10px;
     }
     .news-item {
       margin-bottom: 10px;
       padding: 10px;
-      background-color: #eef1f7;
+      background-color: #333;
       border-radius: 5px;
     }
     .event-item {
       margin-bottom: 10px;
       padding: 10px;
-      background-color: #f1eef7;
+      background-color: #333;
       border-radius: 5px;
     }
     .job-item {
       margin-bottom: 10px;
       padding: 10px;
-      background-color: #f7f1ee;
+      background-color: #333;
       border-radius: 5px;
     }
   </style>
